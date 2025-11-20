@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import productsApi from '~/services/api'
-import Table from 'react-bootstrap/Table';
+import { Table } from 'react-bootstrap';
 import type Student from '~/models/student';
 import { useParams } from 'react-router';
 

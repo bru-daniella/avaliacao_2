@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import studentsApi from '~/services/api'
-import Table from 'react-bootstrap/Table';
+import { Table } from 'react-bootstrap';
 import type Student from '~/models/student';
 export function Grid() {
 
